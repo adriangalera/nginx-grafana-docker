@@ -15,5 +15,7 @@ docker build . -t gal/nginx-grafana
 docker run -p 8080:8080 gal/nginx-grafana
 ```
 To verify if it is working, go to:
+
 - http://localhost:8080/health-check
+
 - http://localhost:8080
